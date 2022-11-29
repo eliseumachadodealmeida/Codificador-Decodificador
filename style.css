@@ -20,6 +20,7 @@ body {
     margin: 100px;
     margin-left: 300px;
   }
+
 /* Título e tags */
 
 h1 {
@@ -28,7 +29,7 @@ h1 {
     font-family: Arial;
     color: white;
     font-weight: lighter;
-    font-size: 60px;
+    font-size: 40px;
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -61,7 +62,7 @@ select {
     border-radius: .2em;
     padding: 5px;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial;
     
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
@@ -70,12 +71,15 @@ select {
 
 textarea {
     background-color: #615959;
+    font-family: Arial;
     text-align: center;
     border-radius: 10px;
     color: white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
-
+textarea::placeholder{
+    color: rgb(193, 193, 255);
+}
 .chave-cont {
     display: none;
 }
